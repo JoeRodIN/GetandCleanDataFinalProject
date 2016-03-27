@@ -71,13 +71,7 @@ Lastly, write out the results using write.table with row.name=FALSE.
 (you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
 
 ###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
 
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
 ParticipantNumber   character   1:30
 Activity            character   WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,                                 SITTING, STANDING, LAYING
 The following variables all follow the following format:
