@@ -64,13 +64,12 @@ Lastly, write out the results using write.table with row.name=FALSE.
 
 ##Description of the variables in the summaryTidyData.txt file
  - Dimensions of the dataset: 180 x 67
- - Summary of the data
+ - Summary of the data:
     For each subject (participant) and activity, the average of each variable is provided.
- - Variables present in the dataset
 
 (you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
 
-###Variable 1 (repeat this section for all variables in the dataset)
+###Variables
 
 ParticipantNumber   character   1:30
 Activity            character   WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,                                 SITTING, STANDING, LAYING
