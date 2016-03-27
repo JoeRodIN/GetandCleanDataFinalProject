@@ -67,13 +67,11 @@ Lastly, write out the results using write.table with row.name=FALSE.
  - Summary of the data:
     For each subject (participant) and activity, the average of each variable is provided.
 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
 ###Variables
 
 ParticipantNumber   character   1:30
 Activity            character   WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,                                 SITTING, STANDING, LAYING
-The following variables all follow the following format:
+The following variables (2 per row) all follow the following format:
     all are numberic 
     t/f - temporal or frequency
     Body/Gravity - component taken from
